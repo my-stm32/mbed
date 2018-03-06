@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_layout_file>
+	<ActiveTarget name="123" />
+	<File name="main.cpp" open="1" top="1" tabpos="7" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="325" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="mbed-rtos\rtos\rtos.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1196" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="mbed-rtos\rtos\Thread.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2051" topLine="53" />
+		</Cursor>
+	</File>
+	<File name="mbed-rtos\rtos\Thread.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1953" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="mbed-rtos\rtx\TARGET_CORTEX_M\RTX_Conf_CM.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10510" topLine="223" />
+		</Cursor>
+	</File>
+	<File name="mbed\Serial.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1372" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="mbed\SerialBase.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6658" topLine="152" />
+		</Cursor>
+	</File>
+	<File name="mbed\Stream.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1293" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="mbed\TARGET_ARCH_MAX\TARGET_STM\TARGET_STM32F4\TARGET_ARCH_MAX\PinNames.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6586" topLine="231" />
+		</Cursor>
+	</File>
+</EmBitz_layout_file>

@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_project_file>
+	<EmBitzVersion release="1.11" revision="0" />
+	<FileVersion major="1" minor="0" />
+	<Project>
+		<Option title="123" />
+		<Option pch_mode="2" />
+		<Option compiler="armgcc_eb" />
+		<Build>
+			<Target title="123">
+				<Option output=".\build\123.elf" />
+				<Option type="0" />
+				<Option compiler="armgcc_eb" />
+				<Device>
+					<Add option="$device=cortex-m4" />
+					<Add option="$fpu=fpv4-sp-d16" />
+					<Add option="$lscript=mbed/TARGET_ARCH_MAX/TOOLCHAIN_GCC_ARM/STM32F407XG.ld" />
+				</Device>
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-Wextra" />
+					<Add option="-Wno-unused-parameter" />
+					<Add option="-Wno-missing-field-initializers" />
+					<Add option="-fmessage-length=0" />
+					<Add option="-fno-exceptions" />
+					<Add option="-fno-builtin" />
+					<Add option="-ffunction-sections" />
+					<Add option="-fdata-sections" />
+					<Add option="-funsigned-char" />
+					<Add option="-fno-delete-null-pointer-checks" />
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-Os" />
+					<Add option="-g1" />
+					<Add option="-mfloat-abi=softfp" />
+					<Add option="-std=gnu99" />
+					<Add option="-include" />
+					<Add option="mbed_config.h" />
+					<Add option="-g" />
+					<Add symbol="TARGET_ARCH_MAX" />
+					<Add symbol="__MBED__=1" />
+					<Add symbol="DEVICE_I2CSLAVE=1" />
+					<Add symbol="__FPU_PRESENT=1" />
+					<Add symbol="DEVICE_PORTOUT=1" />
+					<Add symbol="DEVICE_PORTINOUT=1" />
+					<Add symbol="TARGET_RTOS_M4_M7" />
+					<Add symbol="DEVICE_RTC=1" />
+					<Add symbol="TOOLCHAIN_object" />
+					<Add symbol="TARGET_STM32F4" />
+					<Add symbol="__CMSIS_RTOS" />
+					<Add symbol="TOOLCHAIN_GCC" />
+					<Add symbol="DEVICE_I2C_ASYNCH=1" />
+					<Add symbol="TARGET_CORTEX_M" />
+					<Add symbol="TARGET_STM32F407xG" />
+					<Add symbol="TARGET_LIKE_CORTEX_M4" />
+					<Add symbol="DEVICE_ANALOGOUT=1" />
+					<Add symbol="TARGET_M4" />
+					<Add symbol="TARGET_UVISOR_UNSUPPORTED" />
+					<Add symbol="DEVICE_SPI_ASYNCH=1" />
+					<Add symbol="DEVICE_SERIAL=1" />
+					<Add symbol="DEVICE_INTERRUPTIN=1" />
+					<Add symbol="TARGET_CORTEX" />
+					<Add symbol="DEVICE_I2C=1" />
+					<Add symbol="TRANSACTION_QUEUE_SIZE_SPI=2" />
+					<Add symbol="__CORTEX_M4" />
+					<Add symbol="DEVICE_STDIO_MESSAGES=1" />
+					<Add symbol="TARGET_FAMILY_STM32" />
+					<Add symbol="TARGET_FF_ARDUINO" />
+					<Add symbol="DEVICE_PORTIN=1" />
+					<Add symbol="TARGET_RELEASE" />
+					<Add symbol="MBED_BUILD_TIMESTAMP=1520310915.81" />
+					<Add symbol="TARGET_STM" />
+					<Add symbol="TARGET_STM32F407" />
+					<Add symbol="TARGET_STM32F407VG" />
+					<Add symbol="TARGET_LIKE_MBED" />
+					<Add symbol="__MBED_CMSIS_RTOS_CM" />
+					<Add symbol="DEVICE_SLEEP=1" />
+					<Add symbol="TOOLCHAIN_GCC_ARM" />
+					<Add symbol="DEVICE_SPI=1" />
+					<Add symbol="DEVICE_SPISLAVE=1" />
+					<Add symbol="DEVICE_ANALOGIN=1" />
+					<Add symbol="DEVICE_PWMOUT=1" />
+					<Add symbol="ARM_MATH_CM4" />
+					<Add directory="." />
+					<Add directory="EthernetInterface" />
+					<Add directory="EthernetInterface\Socket" />
+					<Add directory="EthernetInterface\lwip-eth" />
+					<Add directory="EthernetInterface\lwip-eth\arch" />
+					<Add directory="EthernetInterface\lwip-eth\arch\TARGET_STM" />
+					<Add directory="EthernetInterface\lwip-sys" />
+					<Add directory="EthernetInterface\lwip-sys\arch" />
+					<Add directory="EthernetInterface\lwip" />
+					<Add directory="EthernetInterface\lwip\api" />
+					<Add directory="EthernetInterface\lwip\core" />
+					<Add directory="EthernetInterface\lwip\core\ipv4" />
+					<Add directory="EthernetInterface\lwip\core\snmp" />
+					<Add directory="EthernetInterface\lwip\include" />
+					<Add directory="EthernetInterface\lwip\include\ipv4" />
+					<Add directory="EthernetInterface\lwip\include\ipv4\lwip" />
+					<Add directory="EthernetInterface\lwip\include\lwip" />
+					<Add directory="EthernetInterface\lwip\include\netif" />
+					<Add directory="EthernetInterface\lwip\netif" />
+					<Add directory="EthernetInterface\lwip\netif\ppp" />
+					<Add directory="SDFileSystem" />
+					<Add directory="SDFileSystem\FATFileSystem" />
+					<Add directory="SDFileSystem\FATFileSystem\ChaN" />
+					<Add directory="mbed-rtos" />
+					<Add directory="mbed-rtos\rtos" />
+					<Add directory="mbed-rtos\rtx" />
+					<Add directory="mbed-rtos\rtx\TARGET_CORTEX_M" />
+					<Add directory="mbed-rtos\rtx\TARGET_CORTEX_M\TARGET_M4" />
+					<Add directory="mbed-rtos\rtx\TARGET_CORTEX_M\TARGET_M4\TOOLCHAIN_GCC" />
+					<Add directory="mbed\." />
+					<Add directory="mbed\TARGET_ARCH_MAX" />
+					<Add directory="mbed\TARGET_ARCH_MAX\TARGET_STM" />
+					<Add directory="mbed\TARGET_ARCH_MAX\TARGET_STM\TARGET_STM32F4" />
+					<Add directory="mbed\TARGET_ARCH_MAX\TARGET_STM\TARGET_STM32F4\TARGET_ARCH_MAX" />
+					<Add directory="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM" />
+				</Compiler>
+				<Cpp>
+					<Add option="-Wall" />
+					<Add option="-Wextra" />
+					<Add option="-Wno-unused-parameter" />
+					<Add option="-Wno-missing-field-initializers" />
+					<Add option="-fmessage-length=0" />
+					<Add option="-fno-exceptions" />
+					<Add option="-fno-builtin" />
+					<Add option="-ffunction-sections" />
+					<Add option="-fdata-sections" />
+					<Add option="-funsigned-char" />
+					<Add option="-fno-delete-null-pointer-checks" />
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-Os" />
+					<Add option="-g1" />
+					<Add option="-mfloat-abi=softfp" />
+					<Add option="-std=gnu++98" />
+					<Add option="-fno-rtti" />
+					<Add option="-Wvla" />
+					<Add option="-include" />
+					<Add option="mbed_config.h" />
+					<Add option="-g" />
+				</Cpp>
+				<Assembler>
+					<Add option="-Wa,--gdwarf-2" />
+				</Assembler>
+				<Linker>
+					<Add option="-Wl,--gc-sections" />
+					<Add option="-Wl,--wrap,main" />
+					<Add option="-lstdc++" />
+					<Add option="-eb_start_files" />
+					<Add library="supc++" />
+					<Add library="m" />
+					<Add library="c" />
+					<Add library="gcc" />
+					<Add library="nosys" />
+					<Add library="mbed" />
+					<Add directory="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="EthernetInterface\eth_arch.h" />
+		<Unit filename="EthernetInterface\EthernetInterface.h" />
+		<Unit filename="EthernetInterface\lwip-eth\arch\TARGET_STM\lwipopts_conf.h" />
+		<Unit filename="EthernetInterface\lwip-sys\arch\cc.h" />
+		<Unit filename="EthernetInterface\lwip-sys\arch\perf.h" />
+		<Unit filename="EthernetInterface\lwip-sys\arch\sys_arch.h" />
+		<Unit filename="EthernetInterface\lwip\include\ipv4\lwip\autoip.h" />
+		<Unit filename="EthernetInterface\lwip\include\ipv4\lwip\icmp.h" />
+		<Unit filename="EthernetInterface\lwip\include\ipv4\lwip\igmp.h" />
+		<Unit filename="EthernetInterface\lwip\include\ipv4\lwip\inet.h" />
+		<Unit filename="EthernetInterface\lwip\include\ipv4\lwip\inet_chksum.h" />
+		<Unit filename="EthernetInterface\lwip\include\ipv4\lwip\ip.h" />
+		<Unit filename="EthernetInterface\lwip\include\ipv4\lwip\ip_addr.h" />
+		<Unit filename="EthernetInterface\lwip\include\ipv4\lwip\ip_frag.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\api.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\api_msg.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\arch.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\debug.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\def.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\dhcp.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\dns.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\err.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\init.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\mem.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\memp.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\memp_std.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\netbuf.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\netdb.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\netif.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\netifapi.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\opt.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\pbuf.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\raw.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\sio.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\snmp.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\snmp_asn1.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\snmp_msg.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\snmp_structs.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\sockets.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\stats.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\sys.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\tcp.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\tcp_impl.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\tcpip.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\timers.h" />
+		<Unit filename="EthernetInterface\lwip\include\lwip\udp.h" />
+		<Unit filename="EthernetInterface\lwip\include\netif\etharp.h" />
+		<Unit filename="EthernetInterface\lwip\include\netif\ppp_oe.h" />
+		<Unit filename="EthernetInterface\lwip\include\netif\slipif.h" />
+		<Unit filename="EthernetInterface\lwip\lwipopts.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\auth.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\chap.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\chpms.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\fsm.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\ipcp.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\lcp.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\magic.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\md5.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\pap.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\ppp.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\pppdebug.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\randm.h" />
+		<Unit filename="EthernetInterface\lwip\netif\ppp\vj.h" />
+		<Unit filename="EthernetInterface\Socket\Endpoint.h" />
+		<Unit filename="EthernetInterface\Socket\Socket.h" />
+		<Unit filename="EthernetInterface\Socket\TCPSocketConnection.h" />
+		<Unit filename="EthernetInterface\Socket\TCPSocketServer.h" />
+		<Unit filename="EthernetInterface\Socket\UDPSocket.h" />
+		<Unit filename="filelib.h" />
+		<Unit filename="main.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtos\Mail.h" />
+		<Unit filename="mbed-rtos\rtos\MemoryPool.h" />
+		<Unit filename="mbed-rtos\rtos\Mutex.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtos\Mutex.h" />
+		<Unit filename="mbed-rtos\rtos\Queue.h" />
+		<Unit filename="mbed-rtos\rtos\rtos.h" />
+		<Unit filename="mbed-rtos\rtos\RtosTimer.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtos\RtosTimer.h" />
+		<Unit filename="mbed-rtos\rtos\Semaphore.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtos\Semaphore.h" />
+		<Unit filename="mbed-rtos\rtos\Thread.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtos\Thread.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\cmsis_os.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\HAL_CM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\os_tcb.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_CMSIS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Event.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_HAL_CM.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_List.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_List.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Mailbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Mailbox.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_MemBox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_MemBox.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Mutex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Mutex.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Robin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Robin.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Semaphore.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Semaphore.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_System.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_System.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Task.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_Time.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\rt_TypeDef.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\RTX_CM_lib.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\RTX_Conf.h" />
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\RTX_Conf_CM.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\TARGET_M4\TOOLCHAIN_GCC\HAL_CM4.s">
+			<Option compilerVar="ASM" />
+		</Unit>
+		<Unit filename="mbed-rtos\rtx\TARGET_CORTEX_M\TARGET_M4\TOOLCHAIN_GCC\SVC_Table.s">
+			<Option compilerVar="ASM" />
+		</Unit>
+		<Unit filename="mbed\AnalogIn.h" />
+		<Unit filename="mbed\analogin_api.h" />
+		<Unit filename="mbed\AnalogOut.h" />
+		<Unit filename="mbed\analogout_api.h" />
+		<Unit filename="mbed\buffer.h" />
+		<Unit filename="mbed\BusIn.h" />
+		<Unit filename="mbed\BusInOut.h" />
+		<Unit filename="mbed\BusOut.h" />
+		<Unit filename="mbed\CallChain.h" />
+		<Unit filename="mbed\CAN.h" />
+		<Unit filename="mbed\can_api.h" />
+		<Unit filename="mbed\can_helper.h" />
+		<Unit filename="mbed\CircularBuffer.h" />
+		<Unit filename="mbed\CThunk.h" />
+		<Unit filename="mbed\DigitalIn.h" />
+		<Unit filename="mbed\DigitalInOut.h" />
+		<Unit filename="mbed\DigitalOut.h" />
+		<Unit filename="mbed\DirHandle.h" />
+		<Unit filename="mbed\dma_api.h" />
+		<Unit filename="mbed\Ethernet.h" />
+		<Unit filename="mbed\ethernet_api.h" />
+		<Unit filename="mbed\FileBase.h" />
+		<Unit filename="mbed\FileHandle.h" />
+		<Unit filename="mbed\FileLike.h" />
+		<Unit filename="mbed\FilePath.h" />
+		<Unit filename="mbed\FileSystemLike.h" />
+		<Unit filename="mbed\FunctionPointer.h" />
+		<Unit filename="mbed\gpio_api.h" />
+		<Unit filename="mbed\gpio_irq_api.h" />
+		<Unit filename="mbed\I2C.h" />
+		<Unit filename="mbed\i2c_api.h" />
+		<Unit filename="mbed\I2CSlave.h" />
+		<Unit filename="mbed\InterruptIn.h" />
+		<Unit filename="mbed\InterruptManager.h" />
+		<Unit filename="mbed\LocalFileSystem.h" />
+		<Unit filename="mbed\LowPowerTicker.h" />
+		<Unit filename="mbed\LowPowerTimeout.h" />
+		<Unit filename="mbed\LowPowerTimer.h" />
+		<Unit filename="mbed\lp_ticker_api.h" />
+		<Unit filename="mbed\mbed.h" />
+		<Unit filename="mbed\mbed_assert.h" />
+		<Unit filename="mbed\mbed_debug.h" />
+		<Unit filename="mbed\mbed_error.h" />
+		<Unit filename="mbed\mbed_interface.h" />
+		<Unit filename="mbed\pinmap.h" />
+		<Unit filename="mbed\platform.h" />
+		<Unit filename="mbed\port_api.h" />
+		<Unit filename="mbed\PortIn.h" />
+		<Unit filename="mbed\PortInOut.h" />
+		<Unit filename="mbed\PortOut.h" />
+		<Unit filename="mbed\PwmOut.h" />
+		<Unit filename="mbed\pwmout_api.h" />
+		<Unit filename="mbed\RawSerial.h" />
+		<Unit filename="mbed\rtc_api.h" />
+		<Unit filename="mbed\rtc_time.h" />
+		<Unit filename="mbed\semihost_api.h" />
+		<Unit filename="mbed\Serial.h" />
+		<Unit filename="mbed\serial_api.h" />
+		<Unit filename="mbed\SerialBase.h" />
+		<Unit filename="mbed\sleep_api.h" />
+		<Unit filename="mbed\SPI.h" />
+		<Unit filename="mbed\spi_api.h" />
+		<Unit filename="mbed\SPISlave.h" />
+		<Unit filename="mbed\Stream.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\cmsis.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\cmsis_nvic.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_ca9.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_ca_mmu.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_caFunc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_caInstr.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_cm0.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_cm0plus.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_cm3.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_cm4.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_cm4_simd.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_cm7.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_cmFunc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_cmInstr.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\core_cmSimd.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\hal_tick.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32_hal_legacy.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f407xx.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_adc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_adc_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_can.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_cec.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_conf.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_cortex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_crc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_cryp.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_cryp_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_dac.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_dac_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_dcmi.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_dcmi_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_def.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_dma.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_dma2d.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_dma_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_eth.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_flash.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_flash_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_flash_ramfunc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_fmpi2c.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_fmpi2c_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_gpio.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_gpio_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_hash.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_hash_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_hcd.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_i2c.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_i2c_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_i2s.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_i2s_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_irda.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_iwdg.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_ltdc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_nand.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_nor.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_pccard.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_pcd.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_pcd_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_pwr.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_pwr_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_qspi.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_rcc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_rcc_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_rng.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_rtc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_rtc_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_sai.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_sai_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_sd.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_sdram.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_smartcard.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_spdifrx.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_spi.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_sram.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_tim.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_tim_ex.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_uart.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_usart.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_hal_wwdg.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_ll_fmc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_ll_fsmc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_ll_sdmmc.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\stm32f4xx_ll_usb.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\system_stm32f4xx.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TARGET_STM\TARGET_STM32F4\gpio_object.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TARGET_STM\TARGET_STM32F4\PeripheralPins.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TARGET_STM\TARGET_STM32F4\TARGET_ARCH_MAX\device.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TARGET_STM\TARGET_STM32F4\TARGET_ARCH_MAX\objects.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TARGET_STM\TARGET_STM32F4\TARGET_ARCH_MAX\PeripheralNames.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TARGET_STM\TARGET_STM32F4\TARGET_ARCH_MAX\PinNames.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TARGET_STM\TARGET_STM32F4\TARGET_ARCH_MAX\PortNames.h" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\board.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\cmsis_nvic.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\hal_tick.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\mbed_overrides.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\retarget.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\startup_stm32f407xx.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_adc.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_adc_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_can.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_cec.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_cortex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_crc.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_cryp.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_cryp_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_dac.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_dac_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_dcmi.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_dcmi_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_dma.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_dma2d.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_dma_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_eth.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_flash.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_flash_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_flash_ramfunc.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_fmpi2c.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_fmpi2c_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_gpio.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_hash.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_hash_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_hcd.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_i2c.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_i2c_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_i2s.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_i2s_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_irda.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_iwdg.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_ltdc.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_nand.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_nor.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_pccard.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_pcd.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_pcd_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_pwr.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_pwr_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_qspi.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_rcc.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_rcc_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_rng.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_rtc.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_rtc_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_sai.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_sai_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_sd.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_sdram.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_smartcard.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_spdifrx.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_spi.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_sram.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_tim.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_tim_ex.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_uart.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_usart.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_hal_wwdg.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_ll_fmc.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_ll_fsmc.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_ll_sdmmc.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\stm32f4xx_ll_usb.o" />
+		<Unit filename="mbed\TARGET_ARCH_MAX\TOOLCHAIN_GCC_ARM\system_stm32f4xx.o" />
+		<Unit filename="mbed\Ticker.h" />
+		<Unit filename="mbed\ticker_api.h" />
+		<Unit filename="mbed\Timeout.h" />
+		<Unit filename="mbed\Timer.h" />
+		<Unit filename="mbed\TimerEvent.h" />
+		<Unit filename="mbed\toolchain.h" />
+		<Unit filename="mbed\Transaction.h" />
+		<Unit filename="mbed\us_ticker_api.h" />
+		<Unit filename="mbed\wait_api.h" />
+		<Unit filename="mbed_config.h" />
+		<Unit filename="SDFileSystem\FATFileSystem\ChaN\diskio.h" />
+		<Unit filename="SDFileSystem\FATFileSystem\ChaN\ff.h" />
+		<Unit filename="SDFileSystem\FATFileSystem\ChaN\ffconf.h" />
+		<Unit filename="SDFileSystem\FATFileSystem\ChaN\integer.h" />
+		<Unit filename="SDFileSystem\FATFileSystem\FATDirHandle.h" />
+		<Unit filename="SDFileSystem\FATFileSystem\FATFileHandle.h" />
+		<Unit filename="SDFileSystem\FATFileSystem\FATFileSystem.h" />
+		<Unit filename="SDFileSystem\FATFileSystem\MemFileSystem.h" />
+		<Unit filename="SDFileSystem\SDCRC.h" />
+		<Unit filename="SDFileSystem\SDFileSystem.h" />
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<target_debugging_settings target="123" active_interface="J-link">
+					<debug_interface interface_id="J-link" ip_address="localhost" ip_port="2331" path="C:\Program Files (x86)\SEGGER\JLink_V512" executable="JLinkGDBServer.exe" description="" dont_start_server="false" backoff_time="2000" options="2" reg_filter="0" active_family="STMicroelectronics" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="STMicroelectronics">
+							<option opt_id="ID_DEVICE" opt_value="STM32F407ZE" />
+							<option opt_id="ID_JTAG_SWD" opt_value="swd" />
+							<option opt_id="ID_SPEED" opt_value="1000" />
+							<option opt_id="ID_AUTO_SPEED" opt_value="1" />
+							<option opt_id="ID_ENDIANNESS" opt_value="little" />
+							<option opt_id="ID_RESET_TYPE" opt_value="0" />
+							<option opt_id="ID_VECTOR_START" opt_value="0x08000000" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="1" />
+							<option opt_id="ID_FLASH_DOWNLOAD" opt_value="1" />
+							<option opt_id="ID_FLASH_BREAK" opt_value="1" />
+							<option opt_id="ID_RAM_EXEC" opt_value="0" />
+							<option opt_id="ID_VEC_TABLE" opt_value="1" />
+							<option opt_id="ID_NCACHE_CHECK" opt_value="0" />
+							<option opt_id="ID_NCACHE_BASE" opt_value="" />
+							<option opt_id="ID_NCACHE_LENGTH" opt_value="" />
+							<option opt_id="ID_SEMIHOST_CHECK" opt_value="0" />
+							<option opt_id="ID_ARM_SWI" opt_value="" />
+							<option opt_id="ID_THUMB_SWI" opt_value="" />
+						</family_options>
+					</debug_interface>
+					<debug_interface interface_id="ST-link" ip_address="" ip_port="" path="" executable="" description="" dont_start_server="false" backoff_time="" options="0" reg_filter="0" active_family="" gdb_before_conn="" gdb_after_conn="">
+						<family_options family_id="STMicroelectronics">
+							<option opt_id="ID_JTAG_SWD" opt_value="swd" />
+							<option opt_id="ID_VECTOR_START" opt_value="0x08000000" />
+							<option opt_id="ID_RESET_TYPE" opt_value="System" />
+							<option opt_id="ID_LOAD_PROGRAM" opt_value="1" />
+							<option opt_id="ID_SEMIHOST_CHECK" opt_value="0" />
+							<option opt_id="ID_RAM_EXEC" opt_value="0" />
+							<option opt_id="ID_VEC_TABLE" opt_value="1" />
+							<option opt_id="ID_DONT_CONN_RESET" opt_value="0" />
+							<option opt_id="ID_ALL_MODE_DEBUG" opt_value="0" />
+							<option opt_id="ID_DEV_ADDR" opt_value="" />
+							<option opt_id="ID_VERBOSE_LEVEL" opt_value="3" />
+						</family_options>
+					</debug_interface>
+				</target_debugging_settings>
+			</debugger>
+			<envvars />
+		</Extensions>
+	</Project>
+</EmBitz_project_file>
